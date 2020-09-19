@@ -1,0 +1,151 @@
+#container {
+	position: relative;
+	top: 30px;
+	font-size: 0;
+	margin:auto;
+	height:573px;
+	width:300px;
+	padding: 0;
+	border: 1px solid #000;
+  border-radius: 5px;
+  background:#1c1c1c;
+}
+h1 {
+ font-weight: bold;
+ color: rgb(253, 253, 253);
+ text-align: center;
+}
+.letra{
+  text-align: center;
+  color: whitesmoke;
+}
+.caja {
+  display: inline-block;
+  width: 51px;
+  height:53px;
+  background-color: #c4e2ee;
+  border-radius: 100%;
+  display: none;
+}
+
+.contcaja {
+  position: relative;
+	top: 30px;
+  margin:auto;
+  width:300px;
+}
+
+.grid {
+	margin:0;
+	padding:0;
+	display:inline-block;
+}
+
+.grid_inner{
+  border:2px solid #1c1c1c;
+  border-radius: 100%;
+  background-color: #c4e2ee;
+}
+
+.grid_right {
+  margin-top: 2px;
+  margin-left: 4px;
+  margin-right: 4px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  float: right;
+}
+
+.state {
+  background-color: #c4e2ee;
+  border: 1px solid black;
+  border-radius: 100%;
+  margin-top: 2px;
+}
+
+body {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(98,28,117,1) 22%, rgba(255,233,106,1) 100%); 
+}
+
+button {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+}
+
+#green {
+  background-color: green;
+  box-shadow: 0 5px #999;
+}
+
+#green:hover {background-color: #3e8e41}
+
+#green:active {
+  background-color: #3e8e41;
+  transform: translateY(2px);
+}
+
+#red {
+  background-color: red;
+  box-shadow: 0 5px #999;
+}
+
+#red:hover {background-color: #F14444}
+
+#red:active {
+  background-color: #F14444;
+  transform: translateY(2px);
+}
+
+#blue {
+  background-color: blue;
+  box-shadow: 0 5px #999;
+}
+
+#blue:hover {background-color: #5760F5}
+
+#blue:active {
+  background-color: #5760F5;
+  transform: translateY(2px);
+}
+
+#yellow {
+  background-color: yellow;
+  box-shadow: 0 5px #999;
+}
+
+#yellow:hover {background-color: #F5FA62}
+
+#yellow:active {
+  background-color: #F5FA62;
+  transform: translateY(2px);
+}
+
+#purple {
+  background-color: purple;
+  box-shadow: 0 5px #999;
+}
+
+#purple:hover {background-color: #AB39FE}
+
+#purple:active {
+  background-color: #AB39FE;
+  transform: translateY(2px);
+}
+
+#brown {
+  background-color: brown; /*color caca*/
+  box-shadow: 0 5px #999;
+}
+
+#brown:hover {background-color: #583114}
+
+#brown:active {
+  background-color: #583114;
+  transform: translateY(2px);
+}
